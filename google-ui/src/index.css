@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .links {
+        @apply hover:underline
+    }
+    .btn {
+        @apply bg-[#F8F9FA] p-3 rounded-md text-gray-500 text-sm ring-gray-200 focus:outline-none hover:shadow-md
+    }
+    .link {
+        @apply hover:underline
+    }
+}
